@@ -8,6 +8,14 @@ def home(request):
     return render(request, 'quizzes/home.html', {'users': users})
 
 
-# Add User
-#Testing Github
 
+#What kind of things do I need to add in views?
+#Users logging in - would we use django allauth for this?
+# Creating, updating, deleting quizzes
+#View Quizzes (overview)
+#View individual Quiz details
+#Results and scores: store and retrieve user scores for quizzes
+# Leaderboard (show scores of other users)
+#Social sharing & embedding - url generation?
+
+##Admin functionality -> managing users, quizzes, reviewing reports.
